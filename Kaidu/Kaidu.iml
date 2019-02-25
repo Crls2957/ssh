@@ -29,12 +29,14 @@
       <configuration>
         <fileset id="fileset2" name="Spring Application Context " removed="false">
           <file>file://$MODULE_DIR$/src/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/applicationContext1.xml</file>
         </fileset>
       </configuration>
     </facet>
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" value="a16623f3-4b21-4d43-a526-d191d80ff29a" />
           <unit-entry name="sessionFactory" />
         </datasource-map>
         <naming-strategy-map />

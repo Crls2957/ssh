@@ -13,15 +13,13 @@
 
 
         <!-- hibernate.connection.username : 连接数据库的用户名 -->
-        <property name="hibernate.connection.username">luosen</property>
 
 
         <!-- hibernate.connection.password : 连接数据库的密码 -->
-        <property name="hibernate.connection.password">2035</property>
 
 
         <!-- hibernate.connection.url : 连接数据库的地址,路径 -->
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/kaidu?useSSL=false&amp;characterEncoding=utf8</property>
+        <property name="hibernate.connection.url"><![CDATA[jdbc:mysql://localhost:3306/kaidu?useSSL=false&characterEncoding=utf8]]></property>
 
 
 
@@ -72,5 +70,7 @@
             填写src之后的路径
          -->
         <mapping resource="entity/User.hbm.xml"/>
+        <mapping class="entity.TestEntity"/>
+        <mapping resource="entity/TestEntity.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

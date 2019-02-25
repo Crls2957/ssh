@@ -9,5 +9,15 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <user-name>luosen</user-name>
     </data-source>
+    <data-source name="hibernate.cfg.xml/Hibernate" uuid="a16623f3-4b21-4d43-a526-d191d80ff29a">
+      <database-info product="MySQL" version="5.7.24-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" dbms="MYSQL" exact-version="5.7.24" exact-driver-version="5.1">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>luosen</user-name>
+      <introspection-schemas>*:@</introspection-schemas>
+    </data-source>
   </component>
 </project>
